@@ -1,4 +1,4 @@
-# Sample .htaccess file
+# Example .htaccess file
 
 # RewriteCond %{REQUEST_FILENAME} !-f
 # RewriteCond %{REQUEST_FILENAME} !-d
