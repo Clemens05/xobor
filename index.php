@@ -11,6 +11,16 @@ define('URL_PATH', parse_url($url, PHP_URL_PATH));
 define('URL_QUERY', parse_url($url, PHP_URL_QUERY));
 define('URL_FRAGMENT', parse_url($url, PHP_URL_FRAGMENT));
 
+switch (URL_PATH) {
+    case MAINPATH . '/transit':
+        echo 'Transit';
+        break;
+    
+    default:
+        # code...
+        break;
+}
+
 echo URL_PATH;
 
 echo MAINPATH === URL_PATH;

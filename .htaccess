@@ -1,0 +1,7 @@
+# Sample .htaccess file
+
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# #Bewirkt, dass diese RewriteRule nur unter /xobor/ funktioniert
+# RewriteCond %{REQUEST_URI} ^/xobor/(.*)$
+# RewriteRule (.*) xobor/index.php/$1 [L]
